@@ -7,8 +7,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   test = [
-    { fname: 'Bhavin', lname: 'Mehta' },
     { fname: 'Devidas', lname: 'Gaikwad' },
+    { fname: 'Omkar', lname: 'Dange' },
     { fname: 'Tushar', lname: 'Raut' },
   ];
 }

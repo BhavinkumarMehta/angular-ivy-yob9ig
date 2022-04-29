@@ -1,0 +1,23 @@
+<h2 class="CloverBackground">YES BANK EMPLOYEE LIST</h2>
+
+<table aria-colspan="12" border="10px">
+  <tr class="color" aria-colspan="12">
+    <td colspan="6">First Name</td>
+    <td colspan="6">Last Name</td>
+  </tr>
+  <tr aria-colspan="12" *ngFor="let Employee of CloverEmployees">
+    <td colspan="6">{{ Employee.fname }}</td>
+    <td colspan="6">{{ Employee.lname }}</td>
+  </tr>
+</table>
+<br />
+<table aria-colspan="100%">
+  <tr colspan="12">
+    <td colspan="6">
+      <input id="AddEmployees" type="button" value="ADD Employees" />
+    </td>
+    <td colspan="6">
+      <input id="UpdateEmployees" type="button" value="Update Employees" />
+    </td>
+  </tr>
+</table>
