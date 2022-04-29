@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.color {
+  color: yellow;
+  background-color: red;
+}
+.YesBackground
+{
+  color:blue;
+  background-color: white;
+  border: 1px;
+  border-color: black;
+}

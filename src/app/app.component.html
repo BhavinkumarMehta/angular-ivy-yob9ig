@@ -1,0 +1,54 @@
+<!-- <div *ngFor="let Employee of test">
+  <div>{{ Employee.fname }} {{ Employee.lname }}</div>
+</div> -->
+
+<table aria-colspan="12">
+  <tr aria-colspan="12">
+    <td colspan="6">Enter First Name:</td>
+    <td colspan="6">
+      <input type="text" ng-model="firstname" />
+    </td>
+  </tr>
+  <tr aria-colspan="12">
+    <td colspan="6">Select Type Of Employee:</td>
+    <td colspan="6">
+      <select ng-model="myVar">
+        <option value=""></option>
+        <option value="Permanent Employee">Permanent Employee</option>
+        <option value="Contract Employee">Contract Employee</option>
+        <option value="Vendor ">Vendor</option>
+      </select>
+    </td>
+  </tr>
+  <tr aria-colspan="12">
+    <td colspan="6">
+      <input id="Submit" type="button" value="Submit" />
+    </td>
+    <td>
+      <input id="Submit" type="button" value="Reset" />
+    </td>
+  </tr>
+</table>
+
+<h2 class="YesBackground">YES BANK EMPLOYEE LIST</h2>
+<table aria-colspan="12" border="10px">
+  <tr class="color" aria-colspan="12">
+    <td colspan="6">First Name</td>
+    <td colspan="6">Last Name</td>
+  </tr>
+  <tr aria-colspan="12" *ngFor="let Employee of test">
+    <td colspan="6">{{ Employee.fname }}</td>
+    <td colspan="6">{{ Employee.lname }}</td>
+  </tr>
+</table>
+<br />
+<table aria-colspan="100%">
+  <tr colspan="12">
+    <td colspan="6">
+      <input id="AddEmployees" type="button" value="ADD Employees" />
+    </td>
+    <td colspan="6">
+      <input id="UpdateEmployees" type="button" value="Update Employees" />
+    </td>
+  </tr>
+</table>

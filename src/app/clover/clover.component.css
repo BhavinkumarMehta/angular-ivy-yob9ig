@@ -1,0 +1,10 @@
+.color {
+  color: yellow;
+  background-color: red;
+}
+.CloverBackground {
+  color: green;
+  background-color: white;
+  border: 10px;
+  border-color: black;
+}
