@@ -1,11 +1,15 @@
 <h2 class="CloverBackground">CLOVER INFOTECH EMPLOYEE LIST</h2>
 
-<table aria-colspan="12" border="10px">
-  <tr class="color" aria-colspan="12">
-    <td colspan="6">First Name</td>
-    <td colspan="6">Last Name</td>
+<table class="table" aria-colspan="12" border="1px">
+  <tr class="table-primary" aria-colspan="12">
+    <td class="color" colspan="6">First Name</td>
+    <td class="color" colspan="6">Last Name</td>
   </tr>
-  <tr aria-colspan="12" *ngFor="let Employee of CloverEmployees">
+  <tr
+    class="table-primary"
+    aria-colspan="12"
+    *ngFor="let Employee of CloverEmployees"
+  >
     <td colspan="6">{{ Employee.fname }}</td>
     <td colspan="6">{{ Employee.lname }}</td>
   </tr>
@@ -14,10 +18,21 @@
 <table aria-colspan="100%">
   <tr colspan="12">
     <td colspan="6">
-      <input id="AddEmployees" type="button" value="ADD Employees" />
+      <input
+        id="AddEmployees"
+        class="btn btn-outline-primary btn-sm"
+        type="button"
+        value="ADD Employees"
+      />
     </td>
+
     <td colspan="6">
-      <input id="UpdateEmployees" type="button" value="Update Employees" />
+      <input
+        id="UpdateEmployees"
+        class="btn btn-outline-primary btn-sm"
+        type="button"
+        value="Update Employees"
+      />
     </td>
   </tr>
 </table>
