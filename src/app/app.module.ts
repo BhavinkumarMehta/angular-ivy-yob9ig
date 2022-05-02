@@ -9,7 +9,12 @@ import { CustomerComponent } from './Customer/customer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, cloverComponent],
-  bootstrap: [AppComponent, cloverComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    cloverComponent,
+    CustomerComponent,
+  ],
+  bootstrap: [AppComponent, cloverComponent, CustomerComponent],
 })
 export class AppModule {}

@@ -5,7 +5,7 @@ import { CustomerComponent } from '../Customer/customer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [CustomerComponent],
+  declarations: [],
   bootstrap: [CustomerComponent],
 })
 export class CustomerModule {}

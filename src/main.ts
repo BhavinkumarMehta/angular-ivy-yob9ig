@@ -6,7 +6,7 @@ import { AppModule } from './app/app.module';
 import { CustomerModule } from './app/Customer/customer.module';
 
 platformBrowserDynamic()
-  .bootstrapModule(CustomerModule)
+  .bootstrapModule(AppModule)
   .then((ref) => {
     // Ensure Angular destroys itself on hot reloads.
     if (window['ngRef']) {
