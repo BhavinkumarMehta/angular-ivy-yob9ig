@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { cloverComponent } from './clover/clover.component';
+import { CustomerComponent } from './Customer/customer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
