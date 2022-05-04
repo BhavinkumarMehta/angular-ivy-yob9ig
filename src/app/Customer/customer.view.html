@@ -1,72 +1,78 @@
-<table>
-  <tr>
-    <td>
-      <table>
-        <tr>
-          <td>Customer Code :</td>
-          <td>
-            <input
-              class="form-control"
-              [(ngModel)]="CustomerModel.CustomerCode"
-              type="text"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Customer Name :</td>
-          <td>
-            <input
-              class="form-control"
-              [(ngModel)]="CustomerModel.CustomerName"
-              type="text"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Customer Amount :</td>
-          <td>
-            <input
-              class="form-control"
-              [(ngModel)]="CustomerModel.CustomerAmount"
-              type="text"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input
-              class="btn btn-outline-primary btn-sm"
-              type="button"
-              value="Add"
-            />
-          </td>
-          <td>
-            <input
-              class="btn btn-outline-primary btn-sm"
-              type="button"
-              value="Update"
-            />
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      <table>
-        <tr>
-          <td>Customer Code Value:</td>
-          <td>{{CustomerModel.CustomerCode}}</td>
-        </tr>
-        <tr>
-          <td>Customer Name Value:</td>
-          <td>{{CustomerModel.CustomerName}}</td>
-        </tr>
-        <tr>
-          <td>Customer Amount Value:</td>
-          <td>{{CustomerModel.CustomerAmount}}</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-
-<hr />
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Customer Code :</td>
+              <td>
+                <input
+                  class="form-control"
+                  [(ngModel)]="CustomerModel.CustomerCode"
+                  type="text"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Customer Name :</td>
+              <td>
+                <input
+                  class="form-control"
+                  [(ngModel)]="CustomerModel.CustomerName"
+                  type="text"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Customer Amount :</td>
+              <td>
+                <input
+                  class="form-control"
+                  [(ngModel)]="CustomerModel.CustomerAmount"
+                  type="text"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  class="btn btn-outline-primary btn-sm"
+                  type="button"
+                  value="Add"
+                />
+              </td>
+              <td>
+                <input
+                  class="btn btn-outline-primary btn-sm"
+                  type="button"
+                  value="Update"
+                />
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Customer Code Value:</td>
+              <td>{{CustomerModel.CustomerCode}}</td>
+            </tr>
+            <tr>
+              <td>Customer Name Value:</td>
+              <td>{{CustomerModel.CustomerName}}</td>
+            </tr>
+            <tr>
+              <td>Customer Amount Value:</td>
+              <td>{{CustomerModel.CustomerAmount}}</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <i class="fa fa-car"></i>
+    <hr />
+  </body>
+</html>
